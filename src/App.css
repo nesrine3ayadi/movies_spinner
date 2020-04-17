@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.Mystars {
+  cursor: pointer;
+}
+img.img-plus {
+  width: 20px;
+  height: 20px;
+}
+body{
+  font-family:  Arial, Helvetica, sans-serif;
+  background-color: #223343 !important;
+}
+header{
+  padding: 50px 15px;
+}
+header h1{
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+}
+.searchbox:focus{
+  box-shadow: 0px 0px 8px 3px #4484C4;
+}
+.ReactModal__Content.ReactModal__Content--after-open.modall {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #8c8d92;
+  text-align: center;
+}
+.ReactModal__Content.ReactModal__Content--after-open.modall input {
+  margin-bottom: 20px;
+}
+button.btn-modal {
+  width: 100px;
+  height: 100px;
+  background: transparent;
+  color: white;
+  font-weight: 600;
+  font-size: 35px;
+  margin: 10px;
+  float: left;
+}
+.searchbox {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  background: none;
+  background-color: #EEE;
+  border-radius: 8px;
+  color: #53565a;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.4s ease-out ;
+
+}
+.card img{
+  display: block;
+  width: 100%;
+  height: 500px;
+}
+.card h3{
+  color:#ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  background: #445565;
+  flex: 1 1 100%;
+  transition: 0.4s ease-out;
+  justify-content: center;
+  align-items: center;
+}
+.card:hover h3{
+  background: #ffffff;
+  color: #223343;
+
+}
+.loader {
+  position: absolute;
+  top: calc(50% - 4em);
+  left: calc(50% - 4em);
+  width: 6em;
+  height: 6em;
+ 
+  
+ 
+ 
+}
+@keyframes load8 {
+0% {
+  transform: rotate(0deg);
+}
+100% {
+  transform: rotate(360deg);
+}
+}
+.rating-filter-stars span {
+  color: yellow;
+  font-size: 30px;
+  border: #19190d;
+}
